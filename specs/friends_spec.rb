@@ -99,8 +99,16 @@ class TestFriends < MiniTest::Test
 
   # 5. Find the total of everyone's money
 
+  def test_wallet
+    assert_equal(143, wallet())
+  end
+
 
   # 6. For two given people, allow the first person to loan a given value of money to the other
+
+  def test_loan_money
+    assert_equal()
+  end
 
 
   # 7. Find the set of everyone's favourite food joined together

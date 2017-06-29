@@ -25,3 +25,11 @@ def remove_friend(person, friend)
   person[:friends].delete(friend)
   return person[:friends].length
 end
+
+def wallet()
+  total = 0
+  for person in @people
+    total += person[:monies]
+  end
+  return total
+end
